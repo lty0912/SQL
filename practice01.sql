@@ -28,4 +28,4 @@ SELECT count(*) FROM regions;
 SELECT region_name FROM regions ORDER BY length(region_name) ASC;
 
 --10
-SELECT lower(city) FROM locations ORDER BY lower(city) ASC;
+SELECT lower(city) AS city FROM locations ORDER BY lower(city) ASC;
